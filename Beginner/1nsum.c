@@ -2,9 +2,9 @@
 
 int main(void) 
 {
-	int n,i,sum=0;
+	int a,i,sum=0;
 	scanf("%d",&n);
-	for(i=1;i<=n;i++)
+	for(i=1;i<=a;i++)
 	{
 		sum=sum+i;
 	}
