@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-	int n;
-	scanf("%d",&n);
+	long int n;
+	scanf("%ld",&n);
 	if(n>0)
 	{
 		printf("\n given number is positive");
