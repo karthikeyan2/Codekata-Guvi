@@ -8,10 +8,7 @@ int main(void) {
 	for(i=0;i<m;i++)
 	{
 		if(a[i]!=' ')
-		{
-			count++;
-		}
-	continue;	
+		count++;	
 	}
 	printf("%d",count);
 	return 0;
