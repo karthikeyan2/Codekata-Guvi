@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void) {
-	int i,temp;
+	int i,temp1;
 	
 	int a[10];
 	for(i=0;i<10;i++)
@@ -14,9 +14,9 @@ int main(void) {
 		
 			if(a[i]>a[i+1])
 			{
-				temp=a[i];
+				temp1=a[i];
 				a[i]=a[i+1];
-				a[i+1]=temp;
+				a[i+1]=temp1;
 			}
 			
 		
