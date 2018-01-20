@@ -8,7 +8,7 @@ int main(void) {
 	{
 		scanf("%d",&a[i]);
 	}
-	int min=a[n-1];
+	
 	for(i=0;i<n;i++)
 	{
 	for(j=i+1;j<n;j++)
@@ -20,7 +20,7 @@ int main(void) {
 			a[j]=temp;
 		}
 	}
-	
+	int min=a[n-1];
 	}
 	for(i=0;i<n;i++)
 	{
