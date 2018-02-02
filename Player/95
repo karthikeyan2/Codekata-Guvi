@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void) {
+	int n,k,l,rem,i,arr[10];
+	scanf("%d %d %d",&n,&k,&l);
+	while(n>0)
+	{
+		rem=n%10;
+		arr[i]=rem;
+		n=n/10;
+		i++;
+	}
+	int q=0;
+	for(int o=i-1;o>0;o--)
+	{
+		arr[q]=arr[o];
+		q++;
+	}
+	int j=l-1;
+	int m=0;
+	while(m<=(i-l))
+	{
+		arr[m]=arr[j];
+		m++;
+	}
+	printf("%d",arr[k]);
+	return 0;
+}
