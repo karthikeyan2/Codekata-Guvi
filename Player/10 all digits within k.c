@@ -3,6 +3,7 @@
 int main(void) {
 	char a[10];
 	int k,flag,i,j;
+	scanf("%s %d",a,&k);
 	for(i=0;i<=k;i++)
 	{
 		for(j=0;a[j]!='\0';j++)
